@@ -215,6 +215,7 @@ window.onload = function(){
 
 
    document.body.classList.add(result);
+   document.h1.classList.add(result);
    document.body.style.backgroundSize = "100%";
 
   document.getElementById('info').innerHTML = result;
