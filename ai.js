@@ -214,7 +214,7 @@ window.onload = function(){
   const result = brain.likely(op, network);
 
 
-   document.body.style.backgroundImage = "url('" + result + ".jpeg')";
+   document.body.classList.add(result);
    document.body.style.backgroundSize = "100%";
 
   document.getElementById('info').innerHTML = result;
