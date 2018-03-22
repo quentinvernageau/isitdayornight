@@ -13,10 +13,15 @@ h1 {
   color: white;
 }
 
-body {
+body.night {
   margin: 0; 
   padding: 0;
-  background-repeat: no-repeat;
+  background-color: black;
+}
+
+body.day {
+  margin: 0; 
+  padding: 0;
 }
 
 .box {
@@ -34,5 +39,5 @@ body {
 }
 
 .day, .day a{
-  color: black
+  color: black;
 }
