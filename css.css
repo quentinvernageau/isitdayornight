@@ -10,6 +10,13 @@ h1 {
   transform:translate(-50%, -50%);
   margin: 0;
   line-height: 0;
+}
+
+h1.day {
+  color: black;
+}
+
+h1.night {
   color: white;
 }
 
